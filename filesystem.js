@@ -13,7 +13,7 @@ http.createServer((req,res)=>{
         }
         res.writeHead(200,{'content-type':'html'});
         res.write(data);
-        style="text-align:center">res.end('thanku');
+        res.end('thanku');
 
     });
 }).listen(3000,()=>{
